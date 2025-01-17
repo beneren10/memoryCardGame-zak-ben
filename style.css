@@ -1,0 +1,103 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h2 {
+    border-bottom: 3px solid rgb(184, 27, 38);
+    padding: 0px 0px 5px 0px;
+    width: 65%;
+    text-align: center;
+    color: red;
+}
+.child {
+    height: 70%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.toggle-card{
+    border: 5px green solid;
+    border-radius: 5%;
+    height: 20%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 184, 72);
+    color: white;
+    font-weight: bold;
+    font-size: 0rem;
+    margin: 3px;
+}
+
+.card {
+    border: 5px green solid;
+    border-radius: 5%;
+    height: 20%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 3px;
+}
+.card:hover {
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+
+.open {
+    border: 3px solid black;
+    background-color: aliceblue;
+    opacity: 95%;
+    width: 75%;
+    height: 80%;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.one {
+    width: 50%;
+    border-right: 1px solid black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+}
+.two {
+    width: 50%;
+    border-left: 1px solid black;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.two button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 10%;
+    width: 10%;
+    background-color: red;
+    opacity: 95%;
+    cursor: pointer;
+}
