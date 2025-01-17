@@ -51,8 +51,8 @@
     font-size: 1.25rem;
     margin: 3px;
 }
-.card:hover {
-    background-color: aliceblue;
+.toggle-card:hover {
+    background-color: rgba(183, 27, 37, 0.915);
     color: black;
     cursor: pointer;
 }
